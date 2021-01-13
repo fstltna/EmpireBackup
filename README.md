@@ -1,5 +1,5 @@
-# SyncBackup - backup script for the Synchronet BBS (1.0.0)
-Creates a hot backup of your Synchronet BBS installation and optionally copies it to a offsite server.
+# SyncBackup - backup script for Wolfpack Empire (1.0.0)
+Creates a hot backup of your Empire server installation and optionally copies it to a offsite server.
 
 Official support sites: [Official Github Repo](https://github.com/fstltna/SyncBackup) - [Official Forum](https://synchronetbbs.org/index.php/forum/syncbackup) ![Synchronet Logo](https://SynchronetBBS.org/SynchronetLogo.png) 
 
@@ -14,7 +14,7 @@ Official support sites: [Official Github Repo](https://github.com/fstltna/SyncBa
 5. After the first run edit the ~/.sbackuprc and change your settings if you want to use the offsite backup feature. The next run it should save to your remote host.
 6. create a cron job like this:
 
-        1 1 * * * /root/SyncBackup/syncbackup.pl
+        1 1 * * * /home/empowner/EmpireBackup/empirebackup.pl
 
 7. This will back up your SBBS installation at 1:01am each day, and keep the last 5 backups.
 
